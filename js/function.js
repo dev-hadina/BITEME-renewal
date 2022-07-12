@@ -69,39 +69,28 @@ $(function(){
   const $back = $('div > span > .back');
   const $container2 = $('h4+div');
   const $items = $container2.children('ol');
-
-  const slideFn = function(evt) {
-    const btnIdx = $next.index(evt.currentTarget);
-    const btnIdx2 = $back.index(evt.currentTarget);
-
-    $next.eq(btnIdx).on('click', function(evt){
+    
+    $next.on('click', function(evt){
       evt.preventDefault();
-
+      
+      const btnIdx = $next.index(this);
+      // console.log('btnIdx = ', btnIdx);
+      
       $items.eq(btnIdx).stop().animate({
-        left: -400
+        left: -450
       });
     });
-
-    $back.eq(btnIdx2).on('click', function(evt){
+    
+    $back.on('click', function(evt){
       evt.preventDefault();
+
+      const btnIdx2 = $back.index(this);
+      // console.log('btnIdx2 = ', btnIdx2);
 
       $items.eq(btnIdx2).stop().animate({
         left: 0
       });
     });
-  };
-
-  $back.on('click', function(evt){
-    evt.preventDefault();
-
-    slideFn(evt);
-  });
-
-  $next.on('click', function(evt){
-    evt.preventDefault();
-
-    slideFn(evt);
-  });
 
   //검색창 활성화
   const $btnsrch = $('.srch > a');

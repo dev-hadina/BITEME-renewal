@@ -346,7 +346,8 @@
   }//header
 
   >section {
-    // background-color: #fbf7f2;
+    width: 100%;
+    height: 3850px;
     
     >.main {
       display: flex;
@@ -811,6 +812,7 @@
 
     >.summer {
       position: relative;
+      top: 0;
       left: 50%;
       width: 1000px;
       height: 350px;
@@ -841,7 +843,7 @@
 
       >.container2 {
         position: absolute;
-        top: 30px;
+        top: 70px;
         left: 25px;
         overflow: hidden;
         width: 950px;
@@ -869,11 +871,13 @@
   
                 >li:nth-child(1) {
                   width: 200px;
-                  height: 200px;
                   margin-bottom: 10px;
                   background-repeat: no-repeat;
-
+                  
                   >a{
+                    display: block;
+                    height: 200px;
+
                     >span {
                       padding: 3px;
                       color: #fff;
@@ -907,7 +911,7 @@
         >a {
           display: block;
           position: absolute;
-          top: 30%;
+          top: 45%;
           width: 30px;
           height: 30px;
           text-indent: -9999px;
@@ -930,9 +934,11 @@
     >.cats {
       position: relative;
       left: 50%;
+      top: 100px;
       width: 1000px;
       height: 350px;
       margin-left: -500px;
+      // border: 1px solid #000;
 
       >h4 {
         text-indent: 25px;
@@ -958,11 +964,12 @@
 
       >.container3 {
         position: absolute;
-        top: 30px;
+        top: 70px;
         left: 25px;
         overflow: hidden;
         width: 950px;
         height: 300px;
+        // border: 1px solid #000;
 
         >ol {
           display: flex;
@@ -985,11 +992,13 @@
   
                 >li:nth-child(1) {
                   width: 200px;
-                  height: 200px;
                   margin-bottom: 10px;
                   background-repeat: no-repeat;
 
                   >a {
+                    display: block;
+                    height: 200px;
+
                     >span {
                       padding: 2px;
                       color: #fff;
@@ -1025,7 +1034,7 @@
         >a {
           display: block;
           position: absolute;
-          top: 30%;
+          top: 45%;
           width: 30px;
           height: 30px;
           text-indent: -9999px;
@@ -1048,9 +1057,11 @@
     >.restock {
       position: relative;
       left: 50%;
+      top: 200px;
       width: 1000px;
       height: 330px;
       margin-left: -500px;
+      // border: 1px solid #000;
 
       >h4 {
         text-indent:30px;
@@ -1076,7 +1087,7 @@
 
       >.container4 {
         position: absolute;
-        top: 30px;
+        top: 70px;
         left: 25px;
         overflow: hidden;
         width: 950px;
@@ -1108,11 +1119,13 @@
   
                 >li:nth-child(1) {
                   width: 200px;
-                  height: 200px;
                   margin-bottom: 10px;
                   background-repeat: no-repeat;
 
                   >a {
+                    display: block;
+                    height: 200px;
+
                     >span {
                       padding: 1px 3px;
                       color: #fff;
@@ -1149,7 +1162,7 @@
         >a {
           display: block;
           position: absolute;
-          top: 30%;
+          top: 45%;
           width: 30px;
           height: 30px;
           text-indent: -9999px;
@@ -1174,6 +1187,7 @@
       flex-flow: row nowrap;
       position: relative;
       left: 50%;
+      top: 250px;
       width: 1000px;
       height: 150px;
       margin-left: -500px;
@@ -1201,9 +1215,11 @@
     >.freedv {
       position: relative;
       left: 50%;
+      top: 300px;
       width: 1000px;
       height: 350px;
       margin-left: -500px;
+      // border: 1px solid #000;
 
       >h4 {
         text-indent:30px;
@@ -1229,7 +1245,7 @@
 
       >.container5{
         position: absolute;
-        top: 30px;
+        top: 70px;
         left: 25px;
         overflow: hidden;
         width: 950px;
@@ -1261,11 +1277,13 @@
   
                 >li:nth-child(1) {
                   width: 200px;
-                  height: 200px;
                   margin-bottom: 10px;
                   background-repeat: no-repeat;
 
                   >a {
+                    display: block;
+                    height: 200px;
+
                     >span {
                       padding: 1px 3px;
                       color: #fff;
@@ -1301,7 +1319,7 @@
         >a {
           display: block;
           position: absolute;
-          top: 30%;
+          top: 45%;
           width: 30px;
           height: 30px;
           text-indent: -9999px;
@@ -1324,6 +1342,7 @@
     >.outlet {
       position: relative;
       left: 50%;
+      top: 400px;
       width: 1000px;
       height: 400px;
       margin-left: -500px;
@@ -1343,7 +1362,7 @@
             top: 0;
             width: 25px;
             height: 25px;
-            background-image: url(./../images/delivery-truck.png);
+            background-image: url(./../images/dc.png);
             background-size: cover;
             content: '';
           } 
@@ -1352,7 +1371,7 @@
 
       >.container6{
         position: absolute;
-        top: 30px;
+        top: 70px;
         left: 25px;
         overflow: hidden;
         width: 950px;
@@ -1378,11 +1397,13 @@
   
                 >li:nth-child(1) {
                   width: 200px;
-                  height: 200px;
                   margin-bottom: 10px;
                   background-repeat: no-repeat;
 
                   >a {
+                    display: block;
+                    height: 200px;
+
                     >span {
                       padding: 1px 3px;
                       color: #fff;
@@ -1416,7 +1437,7 @@
         >a {
           display: block;
           position: absolute;
-          top: 30%;
+          top: 45%;
           width: 30px;
           height: 30px;
           text-indent: -9999px;
@@ -1434,11 +1455,12 @@
           }
         }//a
       }//span
-    }//putlet 
+    }//outlet 
   }//section
 
   >footer {
     position: relative;
+    top: 0;
     left: 50%;
     margin-left: -750px;
     width: 1000px;
